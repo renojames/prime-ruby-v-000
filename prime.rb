@@ -6,4 +6,4 @@ def prime?(n)
     na.none? { |i| n % i == 0 } && n > 1
 end
 
-prime?(1000000000000000000000000000000000)
+prime?(19)
